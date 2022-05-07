@@ -14918,10 +14918,12 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">app</span><span class="o">.</span><span class="n">run_server</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;inline&#39;</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">8030</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#app.run_server(mode=&#39;inline&#39;, port=8030)</span>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+  <span class="n">app</span><span class="o">.</span><span class="n">run_server</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15128,6 +15130,11 @@ dtype: object</pre>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>From this assignment I learned a new python plotly library called dash which can be used to build apps with dashboards that can be run on browsers and IDE's.
 While building the dashboard I encountered a lot of challenges and obstacles as this is my first time using this library. Watching tutorial videos and going through sample sources available online helped me overcome these challenges as well as learn new ways of creating visualizations.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h5 id="Since-I-was-not-able-to-render-the-plotly-express-contextual-visualizations-in-github-pages-I-have-provided-links-to-them-above.It-takes-you-to-the-visualizations-I-have-created-and-uploaded-separately-in-my-github-repo.Clicking-on-the-links-will-display-the-visualizations-in-a-new-tab.">Since I was not able to render the plotly express contextual visualizations in github pages I have provided links to them above.It takes you to the visualizations I have created and uploaded separately in my github repo.Clicking on the links will display the visualizations in a new tab.<a class="anchor-link" href="#Since-I-was-not-able-to-render-the-plotly-express-contextual-visualizations-in-github-pages-I-have-provided-links-to-them-above.It-takes-you-to-the-visualizations-I-have-created-and-uploaded-separately-in-my-github-repo.Clicking-on-the-links-will-display-the-visualizations-in-a-new-tab.">&#182;</a></h5>
 </div>
 </div>
@@ -15143,10 +15150,10 @@ While building the dashboard I encountered a lot of challenges and obstacles as 
 <p><a href="https://dash.plotly.com/dash-core-components">https://dash.plotly.com/dash-core-components</a></p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#converting the jupyter notebook into html</span>
@@ -15156,79 +15163,6 @@ While building the dashboard I encountered a lot of challenges and obstacles as 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[NbConvertApp] Converting notebook nellira-ragunanda-thashma-final_project_formatted.ipynb to html
-[NbConvertApp] Writing 631368 bytes to nellira-ragunanda-thashma-final_project_formatted.html
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Country</th>
-      <th>Alpha-2 code</th>
-      <th>Alpha-3 code</th>
-      <th>Numeric code</th>
-      <th>lat</th>
-      <th>lon</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>54</th>
-      <td>Cuba</td>
-      <td>"CU"</td>
-      <td>CUB</td>
-      <td>"192"</td>
-      <td>21.5</td>
-      <td>-80.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
