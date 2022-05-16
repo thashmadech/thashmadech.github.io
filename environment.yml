@@ -1,0 +1,12 @@
+name: dash-app-env
+
+dependencies:
+  - jupyterdash
+  - dash
+  - html
+  - Output
+  - Input
+  - pandas
+  - numpy
+  - json
+  - math
