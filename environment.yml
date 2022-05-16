@@ -1,7 +1,7 @@
 name: dash-app-env
 
 dependencies:
-  - jupyterdash
+  - JupyterDash
   - dash
   - html
   - Output
